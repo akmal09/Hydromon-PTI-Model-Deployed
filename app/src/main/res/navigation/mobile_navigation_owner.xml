@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.hydromon.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_control"
+        android:name="com.example.hydromon.ui.control.ControlFragment"
+        android:label="@string/title_control"
+        tools:layout="@layout/fragment_control" />
+
+    <fragment
+        android:id="@+id/navigation_variable"
+        android:name="com.example.hydromon.ui.variable.VariableFragment"
+        android:label="@string/title_variable"
+        tools:layout="@layout/fragment_variable" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.hydromon.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/profile_fragment" />
+
+</navigation>

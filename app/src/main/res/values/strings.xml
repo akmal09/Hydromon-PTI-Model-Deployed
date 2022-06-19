@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Hydromon</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="plants_history">Plant History</string>
+    <string name="title_control">Control</string>
+    <string name="title_variable">Variable</string>
+    <string name="title_profile">Profile</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="controls">Controls</string>
+    <string name="clickToDoControl">Click to do one of the event below</string>
+    <string name="waterpump_title">Water Pump</string>
+    <string name="nutrientpump_title">Nutrient Pump</string>
+    <string name="onoff">On/Off</string>
+    <string name="light_title">Light</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_main_viewer">MainActivityViewer</string>
+
+    <string name="name">Name</string>
+    <string name="title_activity_hydro_verification">HydroVerification</string>
+    <string name="location">Location</string>
+    <string name="hydro_id">Hydroponics ID</string>
+    <string name="hydro_name">Hydroponics Name</string>
+    <string name="colon">:</string>
+    <string name="role">Role</string>
+    <string name="verifyButton">Verify</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="tokenTools">Token Tools</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="editButton">Edit Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="history_desc">See History of the Hydroponic\'s Variables</string>
+    <string name="tds">TDS</string>
+    <string name="ph">pH</string>
+    <string name="ec">EC</string>
+    <string name="humidity">Humidity</string>
+    <string name="temperature">Temperature</string>
+    <string name="light_intens">Light Intens</string>
+    <string name="all_variable">All Variable</string>
+    <string name="tools">Tools</string>
+
+    <string name="hydroponic_code">Hydroponic Code</string>
+    <string name="lightintens">Light Intens</string>
+    <string name="allvariable">All Variable</string>
+    <string name="history_desc2">Select to see one of the Hydroponic\'s Variable\'s History</string>
+    <string name="logout">Log Out</string>
+    <string name="enter_your_code_to_track_owner_s_hydroponic">Enter Your code to track Owner’s Hydroponic</string>
+    <string name="redeem">Redeem</string>
+    <string name="value">Value</string>
+    <string name="save">Save</string>
+</resources>

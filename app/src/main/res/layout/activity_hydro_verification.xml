@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hydroponic_verification_background"
+    tools:context=".hydroverification.HydroVerification">
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="@string/location"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location_tv_received"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hydro_name2"
+        app:layout_constraintTop_toTopOf="@+id/location" />
+
+    <TextView
+        android:id="@+id/hydro_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/hydro_id"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/location"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/location"
+        app:layout_constraintTop_toBottomOf="@+id/location" />
+
+    <TextView
+        android:id="@+id/hydro_id_received"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/hydro_id"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/hydro_id"
+        app:layout_constraintEnd_toEndOf="@+id/location_tv_received"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/hydro_name3"
+        app:layout_constraintTop_toTopOf="@+id/hydro_id"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/hydro_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/hydro_name"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/hydro_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/hydro_id"
+        app:layout_constraintTop_toBottomOf="@+id/hydro_id" />
+
+    <TextView
+        android:id="@+id/role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/role"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/hydro_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/hydro_name"
+        app:layout_constraintTop_toBottomOf="@+id/hydro_name" />
+
+    <TextView
+        android:id="@+id/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/tools"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/role"
+        app:layout_constraintStart_toStartOf="@+id/role"
+        app:layout_constraintTop_toBottomOf="@+id/role" />
+
+    <TextView
+        android:id="@+id/role_received"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:text="@string/role"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/role"
+        app:layout_constraintEnd_toEndOf="@+id/hydro_name_received"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toEndOf="@+id/hydro_name7"
+        app:layout_constraintTop_toTopOf="@+id/role" />
+
+    <TextView
+        android:id="@+id/hydro_name_received"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/hydro_name"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/hydro_name"
+        app:layout_constraintEnd_toEndOf="@+id/hydro_id_received"
+        app:layout_constraintStart_toEndOf="@+id/hydro_name4"
+        app:layout_constraintTop_toTopOf="@+id/hydro_name" />
+
+    <TextView
+        android:id="@+id/hydro_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/colon"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/location"
+        app:layout_constraintStart_toEndOf="@+id/location"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/hydro_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/colon"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/hydro_id"
+        app:layout_constraintStart_toEndOf="@+id/hydro_id"
+        app:layout_constraintTop_toBottomOf="@+id/hydro_name2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/hydro_name4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/colon"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/hydro_name"
+        app:layout_constraintTop_toBottomOf="@+id/hydro_name3" />
+
+    <TextView
+        android:id="@+id/hydro_name7"
+        android:layout_width="5dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/colon"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/role"
+        app:layout_constraintTop_toBottomOf="@+id/hydro_name4" />
+
+    <TextView
+        android:id="@+id/hydro_name8"
+        android:layout_width="5dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/colon"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tools"
+        app:layout_constraintTop_toBottomOf="@+id/hydro_name7" />
+
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView"
+        android:layout_width="171dp"
+
+        android:layout_height="86dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/white"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tools"
+        app:strokeColor="#C4C4C4"
+        app:strokeWidth="1sp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTintMode="screen"
+            android:padding="15dp"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            tools:ignore="RtlSymmetry">
+
+
+            <TextView
+                android:id="@+id/waterpump_title"
+                android:layout_width="91dp"
+                android:layout_height="41dp"
+                android:background="@null"
+                android:fontFamily="@font/montserrat_semibold_600"
+                android:gravity="center_vertical"
+                android:text="@string/waterpump_title"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:paddingStart="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageViewWater"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.511" />
+
+            <ImageView
+                android:id="@+id/imageViewWater"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/waterpumpicon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView2"
+        android:layout_width="171dp"
+
+        android:layout_height="86dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/white"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="@+id/cardView"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="#C4C4C4"
+        app:strokeWidth="1sp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTintMode="screen"
+            android:padding="15dp"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            tools:ignore="RtlSymmetry">
+
+
+            <TextView
+                android:id="@+id/nutrientpump_title"
+                android:layout_width="91dp"
+                android:layout_height="41dp"
+                android:background="@null"
+                android:fontFamily="@font/montserrat_semibold_600"
+                android:gravity="center_vertical"
+                android:text="@string/nutrientpump_title"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:paddingStart="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/imageViewNutrient"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466" />
+
+            <ImageView
+                android:id="@+id/imageViewNutrient"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/nutrientpumpicon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="171dp"
+        android:layout_height="86dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/white"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cardView2"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.083"
+        app:strokeColor="#C4C4C4"
+        app:strokeWidth="1sp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTintMode="screen"
+                    android:padding="15dp"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    tools:ignore="RtlSymmetry">
+
+
+                    <TextView
+                        android:id="@+id/light_title"
+                        android:layout_width="89dp"
+                        android:layout_height="43dp"
+                        android:background="@null"
+                        android:fontFamily="@font/montserrat_semibold_600"
+                        android:gravity="center_vertical"
+                        android:text="@string/light_title"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:paddingStart="10dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/imageViewLight"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.466" />
+
+                    <ImageView
+                        android:id="@+id/imageViewLight"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/lighticon"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.125"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/verify_button"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:backgroundTint="@color/brown_wood"
+        android:drawableStart="@drawable/ic_baseline_done_24"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="@string/verifyButton"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:paddingTop="8dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3"
+        app:layout_constraintVertical_bias="0.381" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
